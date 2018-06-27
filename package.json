@@ -1,0 +1,31 @@
+{
+  "name": "gistore",
+  "version": "0.1.0",
+  "description": "sync data for file-based db using gist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prepublish": "yarn build",
+    "dev": "yarn build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwj0417/gistore.git"
+  },
+  "keywords": [
+    "gist"
+  ],
+  "author": "cwj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwj0417/gistore/issues"
+  },
+  "homepage": "https://github.com/cwj0417/gistore#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.61.2"
+  }
+}
